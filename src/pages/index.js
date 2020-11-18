@@ -14,17 +14,21 @@ import VideoOne from 'sections/video-one';
 import CallToAction from 'sections/call-to-action';
 import BoostAgencies from 'sections/boost-agencies';
 
+
+/// <VideoOne />
+////<Testimonials />
+
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 006" />
+          <SEO title="Technify solutions" />
           <Banner />
           <Services />
           <BoostAgencies />
-          <VideoOne />
-          <Testimonials />
+         
+          
           <CustomerSupport />
           <Feature />
           <CallToAction />

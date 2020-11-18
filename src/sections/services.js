@@ -11,27 +11,27 @@ import icon4 from 'assets/icons/service-1-4.svg';
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Unlimited Customization',
+    title: 'Creative support',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Get creative and build a postive impression about your brand.',
   },
   {
     icon: icon2,
-    title: 'Vector shape & resizable',
+    title: 'Technical support',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Get hacking and build clean and robust software quicker and easier..',
   },
   {
     icon: icon3,
-    title: 'Editing freedom',
+    title: 'Analytical support',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Make better decisions by collecting , visualising and analysing data.',
   },
   {
     icon: icon4,
-    title: 'Best Award history',
+    title: 'Management support',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Digitise your business activties for better results.',
   },
 ];
 
@@ -40,8 +40,8 @@ const Services = () => {
     <Box sx={styles.services} id="services">
       <Container>
         <BlockTitle
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Quality services"
+          title="Meet our exciting services"
           styles={styles.blockTitle}
         />
         <Grid sx={styles.grid}>

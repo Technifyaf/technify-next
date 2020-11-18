@@ -14,23 +14,20 @@ const CustomerSupport = () => {
           <Box sx={styles.col}>
             <Box sx={styles.content}>
               <Heading as="h3">
-                Free Customer Support to ensure what you like to expect
+                What makes us different
               </Heading>
               <Text as="p">
-                We offer a risk-free trial period of up to two weeks. You will
-                only have to pay if you are happy with the developer and wish to
-                continue. If you are unsatisfied, we’ll refund payment or fix
-                issues on our dime period customers.
+                Your office is our field, we work closely with your team to become one team and deliver the best results.
               </Text>
               <Text as="p" sx={styles.specialText}>
-                If you are happy with the developer and wish to continue. If you
-                are unsatisfied, we’ll refund payment or fix issues.
+                Whether remote or on site we become an addional member of your staff because our job is never done. It grows.
               </Text>
               <Link path="/" sx={styles.link}>
                 Learn more <FaAngleRight />
               </Link>
             </Box>
           </Box>
+          
           <Box sx={styles.col}>
             <Image src={img1} alt="" />
           </Box>

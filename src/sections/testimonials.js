@@ -17,35 +17,35 @@ const TESTIMONIALS_DATA = [
     heading: 'Pierre Hackett',
     designation: 'VP of Engineering',
     content:
-      'They are doing amazing job with hundred percent customer satisfaction, Love their work and would like to work with them again',
+      'I get to focus on my business while technify handles all the IT stuff.',
   },
   {
     image: img2,
     heading: 'Natalia Sanz',
     designation: 'Head of Technology',
     content:
-      'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster.',
+      'Before technify, most of our work was reactive, now we plan ahead use collaborative and task tracking tools to stay on course ',
   },
   {
     image: img3,
     heading: 'Ece Akman',
     designation: 'Senior Marketer',
     content:
-      'Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal.',
+      'When my developer , left I felt lost and stuck but Technify devs filled the gap and helped me complete my software project',
   },
   {
     image: img2,
     heading: 'Natalia Sanz',
     designation: 'Head of Technology',
     content:
-      'Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional.',
+      'I tried building a technology driven work culture at my workplace but the staff, we more frustrated thant before, but technify changed all of that.',
   },
   {
     image: img3,
     heading: 'Ece Akman',
     designation: 'Senior Marketer',
     content:
-      'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base.',
+      'I sometimes forget to update my social media, technify does this for me monthly and gives me a detailed report on digital performance',
   },
 ];
 

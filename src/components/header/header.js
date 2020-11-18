@@ -37,7 +37,7 @@ export default function Header({ className }) {
           <Link
             path="/"
             ml={2}
-            label="Register Now"
+            label="Get Technified"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />

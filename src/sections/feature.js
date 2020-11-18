@@ -12,20 +12,20 @@ import featureImage3 from 'assets/tutorial-1-3.png';
 const FeatureData = [
   {
     image: featureImage1,
-    title: 'How to work with prototype design with adobe xd featuring tools',
+    title: 'Why Africa is ready to go digital',
     comments: '22 Comments',
     path: '/',
   },
   {
     image: featureImage2,
-    title: 'Create multiple artboard by using figma prototyping development',
+    title: 'Breaking down e-Commerce',
     comments: '15 Comments',
     path: '/',
   },
   {
     image: featureImage3,
     title:
-      'Convert your web layout theming easily with sketch zeplin extension',
+      'Unlocking Lesotho ',
     comments: '12 Comments',
     path: '/',
   },
@@ -86,7 +86,7 @@ const Feature = () => {
       <Container>
         <BlockTitle
           slogan="Quality features"
-          title="Tutorials that people love most"
+          title="Our Opinion"
           styles={styles.blockTitle}
         />
 

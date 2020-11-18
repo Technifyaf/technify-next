@@ -9,6 +9,19 @@ import img3 from 'assets/partner-1-3.png';
 
 import bannerImg from 'assets/banner-image-1-1.png';
 
+/** <Box sx={styles.partner}>
+              <Text as="span">Supported by:</Text>
+              <Box as="div">
+                <Image src={img1} alt="" />
+              </Box>
+              <Box as="div">
+                <Image src={img2} alt="" />
+              </Box>
+              <Box as="div">
+                <Image src={img3} alt="" />
+              </Box>
+            </Box> */
+
 const Banner = () => {
   return (
     <Box sx={styles.banner} id="banner">
@@ -16,11 +29,9 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h3">
-              Great software is built with amazing developers
-            </Heading>
+Africa's Tech department for SMMEs and Startups.           </Heading>
             <Text as="p">
-              We help build and manage a team of world-class developers to bring
-              your vision to life
+              We provide creative, technical, analytical and management support to traditonal businesses.
             </Text>
             <Box as="form" sx={styles.form}>
               <Box as="label" htmlFor="subscribe" variant="styles.srOnly">
@@ -36,18 +47,7 @@ const Banner = () => {
                 Subscribe
               </Button>
             </Box>
-            <Box sx={styles.partner}>
-              <Text as="span">Sponsored by:</Text>
-              <Box as="div">
-                <Image src={img1} alt="" />
-              </Box>
-              <Box as="div">
-                <Image src={img2} alt="" />
-              </Box>
-              <Box as="div">
-                <Image src={img3} alt="" />
-              </Box>
-            </Box>
+           
           </Box>
           <Box sx={styles.image}>
             <Image src={bannerImg} alt="" />
