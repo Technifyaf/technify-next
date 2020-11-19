@@ -5,7 +5,7 @@ import { Link } from 'components/link';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 
 import { FaAngleRight } from 'react-icons/fa';
-import image1 from 'assets/trer.jpeg';
+import image1 from 'assets/Trer.jpeg';
 
 const Founder = () => {
   return (
@@ -48,7 +48,10 @@ const Founder = () => {
                 <IoIosCheckmarkCircle />
                  Mest Africa Alumni 2020
                 </Text>
-                
+                <Text as="li">
+                <IoIosCheckmarkCircle />
+                Startup Boost Kenya, Alumni 2020
+                </Text>
                 
               </Box>
               <Link path="/" sx={styles.link}>
