@@ -16,6 +16,7 @@ import BoostAgencies from 'sections/boost-agencies';
 import Projects from 'sections/projects'
 import Training from 'sections/training'
 import Positioning from 'sections/positioning';
+import Founder from 'sections/founder';
 
 
 /// <VideoOne />
@@ -34,6 +35,7 @@ export default function IndexPage() {
           <BoostAgencies />
           <CustomerSupport />
           <Positioning/>
+          <Founder/>
           <Feature />
           <CallToAction />
         </Layout>
