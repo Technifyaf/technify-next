@@ -48,10 +48,7 @@ const Founder = () => {
                 <IoIosCheckmarkCircle />
                  Mest Africa Alumni 2020
                 </Text>
-                <Text as="li">
-                <IoIosCheckmarkCircle />
-                Startup Boost Kenya, Alumni 2020
-                </Text>
+                
                 
               </Box>
               <Link path="/" sx={styles.link}>
