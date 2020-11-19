@@ -15,6 +15,7 @@ import CallToAction from 'sections/call-to-action';
 import BoostAgencies from 'sections/boost-agencies';
 import Projects from 'sections/projects'
 import Training from 'sections/training'
+import Positioning from 'sections/Positioning';
 
 
 /// <VideoOne />
@@ -32,6 +33,7 @@ export default function IndexPage() {
           <Projects />
           <BoostAgencies />
           <CustomerSupport />
+          <Positioning/>
           <Feature />
           <CallToAction />
         </Layout>

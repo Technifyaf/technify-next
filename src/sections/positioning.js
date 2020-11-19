@@ -1,72 +1,63 @@
 import React from 'react';
-import { Box, Container, Grid, Heading, Text } from 'theme-ui';
+import { Box, Container,Flex, Grid, Heading, Text } from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 import { Link } from 'components/link';
+import { FaAngleRight } from 'react-icons/fa';
+import icon1 from 'assets/icons/service-1-1.svg';
+import icon2 from 'assets/icons/service-1-2.svg';
+import icon3 from 'assets/icons/service-1-3.svg';
+import icon4 from 'assets/icons/service-1-4.svg';
 
-import icon1 from 'assets/icons/twitter.svg';
-import icon2 from 'assets/icons/pen-tool.svg';
-import icon3 from 'assets/icons/code.svg';
-import icon4 from 'assets/icons/code.svg';
+import image1 from 'assets/ecommerce.png';
+
 
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Online presence workshops',
+    title: 'Creative support',
     text:
-      'Learn how to manage your brand visibility online and get audience insights.',
+      'Get creative and build a postive impression about your brand.',
   },
   {
     icon: icon2,
-    title: 'Id8tion sprints',
+    title: 'Technical support',
     text:
-      'Learn user centered Design thinking , propotyping and building no code MVPS ',
+      'Get hacking and build clean and robust software quicker and easier..',
   },
   {
     icon: icon3,
-    title: 'Graduate training programme',
+    title: 'Analytical support',
     text:
-      'Improve your professionals skills and gain experience by working on real life projects.',
+      'Make better decisions by collecting , visualising and analysing data.',
   },
   {
     icon: icon4,
-    title: 'Coding bootcamps',
+    title: 'Management support',
     text:
-      'Monthly coding boot camps on different programming languages.',
+      'Digitise your business activties for better results.',
   },
   
 ];
 
-const Training = () => {
+const Services = () => {
   return (
-    <Box sx={styles.services} id="training">
+    <Box sx={styles.services} id="services">
       <Container>
         <BlockTitle
           slogan="Quality services"
-          title="Our training services"
+          title="We are building Lesotho's E-commerce ecosytem"
           styles={styles.blockTitle}
         />
-        <Grid sx={styles.grid}>
-          {SERVICES_DATA.map((service, index) => (
-            <Box
-              className="service-card"
-              sx={styles.serviceCard}
-              key={`service-post-${index}`}
-            >
-              <Box className="service-icon" sx={styles.icon}>
-                <Image src={service.icon} alt="" />
-              </Box>
-              <Heading as="h3">{service.title}</Heading>
-              <Text as="p">{service.text}</Text>
-            </Box>
-          ))}
-        </Grid>
+        <Flex sx={styles.col}>
+            <Image src={image1} sx={styles.image} alt="" />
+          </Flex>
       </Container>
     </Box>
   );
 };
 
-export default Training;
+export default Services;
 
 const styles = {
   services: {

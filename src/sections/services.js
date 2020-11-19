@@ -4,10 +4,10 @@ import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 import { Link } from 'components/link';
 import { FaAngleRight } from 'react-icons/fa';
-import icon1 from 'assets/icons/service-1-1.svg';
-import icon2 from 'assets/icons/service-1-2.svg';
-import icon3 from 'assets/icons/service-1-3.svg';
-import icon4 from 'assets/icons/service-1-4.svg';
+import icon1 from 'assets/icons/video.svg';
+import icon2 from 'assets/icons/git-merge.svg';
+import icon3 from 'assets/icons/database.svg';
+import icon4 from 'assets/icons/user-plus.svg';
 
 const SERVICES_DATA = [
   {
@@ -30,7 +30,7 @@ const SERVICES_DATA = [
   },
   {
     icon: icon4,
-    title: 'Management support',
+    title: 'Admin support',
     text:
       'Digitise your business activties for better results.',
   },
