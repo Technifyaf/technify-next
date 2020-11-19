@@ -3,7 +3,7 @@ import { Box, Container, Grid, Heading, Text } from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 import { Link } from 'components/link';
-import { FaAngleRight } from 'react-icons/fa';
+
 import icon1 from 'assets/icons/service-1-1.svg';
 import icon2 from 'assets/icons/service-1-2.svg';
 import icon3 from 'assets/icons/service-1-3.svg';
@@ -12,38 +12,38 @@ import icon4 from 'assets/icons/service-1-4.svg';
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Creative support',
+    title: 'Online presence workshops',
     text:
-      'Get creative and build a postive impression about your brand.',
+      'Learn how to manage your brand visibility online and get audience insights.',
   },
   {
     icon: icon2,
-    title: 'Technical support',
+    title: 'Id8tion sprints',
     text:
-      'Get hacking and build clean and robust software quicker and easier..',
+      'Learn ucçser centered Design thinking , propotyping and building no code MVPS ',
   },
   {
     icon: icon3,
-    title: 'Analytical support',
+    title: 'Graduate training programme',
     text:
-      'Make better decisions by collecting , visualising and analysing data.',
+      'Improve your professionals skills and gain experience by working on real life projects.',
   },
   {
     icon: icon4,
-    title: 'Management support',
+    title: 'Coding bootcamps',
     text:
-      'Digitise your business activties for better results.',
+      'Monthly coding boot camps on different programming languages.',
   },
   
 ];
 
-const Services = () => {
+const Training = () => {
   return (
-    <Box sx={styles.services} id="services">
+    <Box sx={styles.services} id="training">
       <Container>
         <BlockTitle
           slogan="Quality services"
-          title="Meet our exciting support services"
+          title="Our training services"
           styles={styles.blockTitle}
         />
         <Grid sx={styles.grid}>
@@ -58,9 +58,6 @@ const Services = () => {
               </Box>
               <Heading as="h3">{service.title}</Heading>
               <Text as="p">{service.text}</Text>
-              <Link path="/" sx={styles.link}>
-                Learn more <FaAngleRight />
-              </Link>
             </Box>
           ))}
         </Grid>
@@ -69,7 +66,7 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Training;
 
 const styles = {
   services: {

@@ -2,8 +2,7 @@ import React from 'react';
 import { Box, Container, Grid, Heading, Text } from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import Image from 'components/image';
-import { Link } from 'components/link';
-import { FaAngleRight } from 'react-icons/fa';
+
 import icon1 from 'assets/icons/service-1-1.svg';
 import icon2 from 'assets/icons/service-1-2.svg';
 import icon3 from 'assets/icons/service-1-3.svg';
@@ -12,38 +11,37 @@ import icon4 from 'assets/icons/service-1-4.svg';
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Creative support',
+    title: 'Lunchbox',
     text:
-      'Get creative and build a postive impression about your brand.',
+      'A cooked food marketplace and distribution solution.',
   },
   {
     icon: icon2,
-    title: 'Technical support',
+    title: 'Eventspoynt',
     text:
-      'Get hacking and build clean and robust software quicker and easier..',
+      'An event ticketing and RSVP platform. ',
   },
   {
     icon: icon3,
-    title: 'Analytical support',
+    title: 'Itmas',
     text:
-      'Make better decisions by collecting , visualising and analysing data.',
+      'A shorter and quicker way to make mobile money payments.',
   },
   {
     icon: icon4,
-    title: 'Management support',
+    title: 'Nkukele',
     text:
-      'Digitise your business activties for better results.',
+      'A multipurpose delivery solution for businesses and individuals.',
   },
-  
 ];
 
-const Services = () => {
+const Projects = () => {
   return (
-    <Box sx={styles.services} id="services">
+    <Box sx={styles.services} id="projects">
       <Container>
         <BlockTitle
           slogan="Quality services"
-          title="Meet our exciting support services"
+          title="Our E-commerce Lesotho projects"
           styles={styles.blockTitle}
         />
         <Grid sx={styles.grid}>
@@ -58,9 +56,6 @@ const Services = () => {
               </Box>
               <Heading as="h3">{service.title}</Heading>
               <Text as="p">{service.text}</Text>
-              <Link path="/" sx={styles.link}>
-                Learn more <FaAngleRight />
-              </Link>
             </Box>
           ))}
         </Grid>
@@ -69,7 +64,7 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Projects;
 
 const styles = {
   services: {

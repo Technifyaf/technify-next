@@ -2,6 +2,7 @@
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
 import logo from 'assets/logo.svg';
+import { Box, Container, Grid, Button, Input, Heading, Text } from 'theme-ui';
 
 export default function Logo() {
   return (
@@ -11,7 +12,7 @@ export default function Logo() {
         variant: 'links.logo',
       }}
     >
-      <Image src={logo} sx={{ display: 'flex' }} alt="startup landing logo" />
-    </Link>
+<Heading as="h3">
+Technify  </Heading>    </Link>
   );
 }

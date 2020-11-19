@@ -5,14 +5,18 @@ export default [
   },
   {
     path: 'services',
-    label: 'Services',
+    label: 'Support',
   },
   {
-    path: 'testimonials',
-    label: 'Testimonials',
+    path: 'training',
+    label: 'Training',
+  },
+  {
+    path: 'projects',
+    label: 'Projects',
   },
   {
     path: 'news',
-    label: 'News',
+    label: 'Opinion',
   },
 ];

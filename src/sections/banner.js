@@ -31,7 +31,7 @@ const Banner = () => {
             <Heading as="h3">
 Africa's Tech department for SMMEs and Startups.           </Heading>
             <Text as="p">
-              We provide creative, technical, analytical and management support to traditonal businesses.
+              We provide creative, technical, analytical and management support to traditional businesses.
             </Text>
             <Box as="form" sx={styles.form}>
               <Box as="label" htmlFor="subscribe" variant="styles.srOnly">

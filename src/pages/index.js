@@ -13,6 +13,8 @@ import Feature from 'sections/feature';
 import VideoOne from 'sections/video-one';
 import CallToAction from 'sections/call-to-action';
 import BoostAgencies from 'sections/boost-agencies';
+import Projects from 'sections/projects'
+import Training from 'sections/training'
 
 
 /// <VideoOne />
@@ -23,12 +25,12 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Technify solutions" />
+          <SEO title="Technify Africa solutions" />
           <Banner />
           <Services />
+          <Training />
+          <Projects />
           <BoostAgencies />
-         
-          
           <CustomerSupport />
           <Feature />
           <CallToAction />
