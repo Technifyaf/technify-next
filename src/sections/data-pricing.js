@@ -136,24 +136,24 @@ const PRICE_YEARLY_DATA = [
   },
 ];
 
-const Pricing = () => {
+const DataPricing = () => {
   const [plan, setPlan] = useState({
-    active: 'monthly',
+    active: 'hourly',
     pricingPlan: PRICE_MONTHLY_DATA,
   });
 
   const handlePlan = (plan) => {
+    if (plan === 'hourly') {
+      setPlan({
+        ...plan,
+        active: 'hourly',
+        pricingPlan: PRICE_MONTHLY_DATA,
+      });
+    }
     if (plan === 'monthly') {
       setPlan({
         ...plan,
         active: 'monthly',
-        pricingPlan: PRICE_MONTHLY_DATA,
-      });
-    }
-    if (plan === 'yearly') {
-      setPlan({
-        ...plan,
-        active: 'yearly',
         pricingPlan: PRICE_YEARLY_DATA,
       });
     }
@@ -167,16 +167,16 @@ const Pricing = () => {
         />
         <Box sx={styles.btnWrap}>
           <Button
+            onClick={() => handlePlan('hourly')}
+            className={`${plan.active === 'hourly' ? 'active' : ''}`}
+          >
+            Hourly Plan
+          </Button>
+          <Button
             onClick={() => handlePlan('monthly')}
             className={`${plan.active === 'monthly' ? 'active' : ''}`}
           >
             Monthly Plan
-          </Button>
-          <Button
-            onClick={() => handlePlan('yearly')}
-            className={`${plan.active === 'yearly' ? 'active' : ''}`}
-          >
-            Annual Plan
           </Button>
         </Box>
         <Grid sx={styles.grid}>
@@ -189,7 +189,7 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default DataPricing;
 
 const fadeIn = keyframes`
   from {

@@ -9,30 +9,36 @@ import icon2 from 'assets/icons/git-merge.svg';
 import icon3 from 'assets/icons/database.svg';
 import icon4 from 'assets/icons/user-plus.svg';
 
+
+
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Creative support',
+    title: 'Online marketing',
     text:
       'Get creative and build a postive impression about your brand.',
+      path : ' /services/online-marketing',
   },
   {
     icon: icon2,
-    title: 'Technical support',
+    title: 'Software development',
     text:
       'Get hacking and build clean and robust software quicker and easier..',
+      path : '/services/software-development ',
   },
   {
     icon: icon3,
-    title: 'Analytical support',
+    title: 'Data analysis',
     text:
       'Make better decisions by collecting , visualising and analysing data.',
+      path : '/services/data-analytics ',
   },
   {
     icon: icon4,
-    title: 'Admin support',
+    title: 'IT admin support',
     text:
       'Digitise your business activties for better results.',
+      path : '/services/it-administration',
   },
   
 ];
@@ -52,15 +58,16 @@ const Services = () => {
               className="service-card"
               sx={styles.serviceCard}
               key={`service-post-${index}`}
-            >
+            >  
+            <Link path={service.path} sx={styles.link} >
               <Box className="service-icon" sx={styles.icon}>
                 <Image src={service.icon} alt="" />
               </Box>
               <Heading as="h3">{service.title}</Heading>
               <Text as="p">{service.text}</Text>
-              <Link path="/" sx={styles.link}>
-                Learn more <FaAngleRight />
+              learn more <FaAngleRight />
               </Link>
+             
             </Box>
           ))}
         </Grid>
@@ -138,6 +145,19 @@ const styles = {
       width: '100%',
       maxWidth: [null, null, null, null, '84%', '100%'],
       mx: [null, null, null, null, 'auto', '0'],
+    },
+  },
+  link: {
+    color: 'primary',
+    fontSize: [1, null, 2],
+    display: 'inline-block',
+    verticalAlign: 'middle',
+    fontWeight: 'bold',
+    pl: ['30px', null, null, '4px', null, '4px'],
+    mt: ['5px', null, null, null, '10px'],
+    svg: {
+      position: 'relative',
+      top: '3px',
     },
   },
 };

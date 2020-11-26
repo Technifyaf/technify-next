@@ -86,7 +86,7 @@ const Feature = () => {
       <Container>
         <BlockTitle
           slogan="Quality features"
-          title="Our Opinion"
+          title="Blog"
           styles={styles.blockTitle}
         />
 

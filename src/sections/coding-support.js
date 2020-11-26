@@ -5,18 +5,18 @@ import { Link } from 'components/link';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 
 import { FaAngleRight } from 'react-icons/fa';
-import image1 from 'assets/Trer.jpeg';
+import image1 from 'assets/coding-support.svg';
 
-const Founder = () => {
+const CodingSupport = () => {
   return (
-    <Box sx={styles.boostAgencies}>
+    <Box sx={styles.boostAgencies} id="creative-support">
       <Container>
         <Box sx={styles.row}>
           <Flex sx={styles.col}>
             <Box sx={styles.content}>
               <Box sx={styles.titleBox}>
                 <Heading as="h3">
-                  Founder and CEO
+                Software devlopment support
                 </Heading>
                 <Text as="p">
                   Get the right support to complete your projects quicker, better and cheaper.
@@ -25,36 +25,21 @@ const Founder = () => {
               <Box as="ul" sx={styles.list}>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                 National University of Lestho Alumni, 2014
+              Front-end web devlopment (Javascript & Typescript)
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  EU-Africa Start-up Fair participant, 2017
+               Native mobile dev (Kotlin & Swift)   </Text>
+                <Text as="li">
+                  <IoIosCheckmarkCircle />
+               Cross platform ( React native & Flutter)
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  LSIMM hackathon on inclusive fintech winner, 2018
+              Back end devlopment ( Nodejs, Go, Java, Python)
                 </Text>
-                <Text as="li">
-                  <IoIosCheckmarkCircle />
-                  Vodacom Innovation Park Alumni, 2019
-                </Text>
-                <Text as="li">
-                  <IoIosCheckmarkCircle />
-                  Mandela Washington Fellowship Alumni, 2019
-                </Text>
-    
-                <Text as="li">
-                <IoIosCheckmarkCircle />
-                 Mest Africa Alumni 2020
-                </Text>
-                <Text as="li">
-                <IoIosCheckmarkCircle />
-                Startup Boost Kenya, Alumni 2020
-                </Text>
-                
               </Box>
-             
+            
             </Box>
           </Flex>
           <Flex sx={styles.col}>
@@ -66,7 +51,7 @@ const Founder = () => {
   );
 };
 
-export default Founder;
+export default CodingSupport;
 
 const styles = {
   boostAgencies: {

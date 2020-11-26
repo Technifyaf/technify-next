@@ -17,11 +17,12 @@ const CustomerSupport = () => {
                 What makes us different
               </Heading>
               <Text as="p">
-                Your office is our field, we work closely with your team to become one team and deliver the best results.
-              </Text>
+              We are elsactic, agile, and lean.</Text>
               <Text as="p" sx={styles.specialText}>
-                Whether remote or on site we become an addional member of your staff because our job is never done. It grows.
-              </Text>
+               We value execution and experience.  We don't just deliver good work, we deliver a good experience too.
+               We offer shared and dedicated solutions to small and medium sized clients.
+                 
+             </Text>
               <Link path="/" sx={styles.link}>
                 Learn more <FaAngleRight />
               </Link>

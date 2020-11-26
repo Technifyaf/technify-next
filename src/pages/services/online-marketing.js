@@ -17,30 +17,23 @@ import Projects from 'sections/projects'
 import Training from 'sections/training'
 import Positioning from 'sections/positioning';
 import Founder from 'sections/founder';
+import CreativeSupport from 'sections/creative-support';
+import Pricing from 'sections/creative-pricing';
+import CreativeSupportLayout from 'components/creative-support-layout';
+import FAQ from 'sections/faq';
 
 
-/// <VideoOne />
-////<Testimonials />
 
-export default function IndexPage() {
-  return (
-    <ThemeProvider theme={theme}>
-      <StickyProvider>
-        <Layout>
-          <SEO title="Technify Africa solutions" />
-          <Banner />
-          <Services />
-         
-          <BoostAgencies />
-          <CustomerSupport />
-          <Positioning/>
-          <Projects />
-
-          <Founder/>
-          <Feature />
-          <CallToAction />
-        </Layout>
-      </StickyProvider>
-    </ThemeProvider>
-  );
-}
+export default function myService() {
+    return ( <ThemeProvider theme={theme}>
+        <StickyProvider>
+          <CreativeSupportLayout>
+            <SEO title="Technify Africa solutions" />
+            <CreativeSupport />
+            <Pricing/>
+            <FAQ/>
+           
+          </CreativeSupportLayout>
+        </StickyProvider>
+      </ThemeProvider>)
+  }

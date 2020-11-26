@@ -40,7 +40,7 @@ const BoostAgencies = () => {
                   Better approach to work
                 </Text>
               </Box>
-              <Link path="/" sx={styles.link}>
+              <Link path="/why-choose-us" sx={styles.link}>
                 Learn more <FaAngleRight />
               </Link>
             </Box>
