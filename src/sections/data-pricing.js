@@ -11,7 +11,7 @@ const PRICE_MONTHLY_DATA = [
     recommended: null,
     title: 'Starter Pack',
     icon: priceIcon1,
-    amount: 'R399/hr',
+    amount: '399/',
     options: [
       {
         status: true,
@@ -44,7 +44,7 @@ const PRICE_MONTHLY_DATA = [
     recommended: 'Recommended',
     title: 'Growth pack',
     icon: priceIcon2,
-    amount: 'R499/hr',
+    amount: '499/hr',
     options: [
       {
         status: true,
@@ -80,7 +80,7 @@ const PRICE_YEARLY_DATA = [
     recommended: null,
     title: 'For Team pack',
     icon: priceIcon1,
-    amount: 'R299.99/mo',
+    amount: '299.99/mo',
     options: [
       {
         status: true,
@@ -109,7 +109,7 @@ const PRICE_YEARLY_DATA = [
     recommended: 'Recommended',
     title: 'For Organization pack',
     icon: priceIcon2,
-    amount: 'R399.99/mo',
+    amount: '399.99/mo',
     options: [
       {
         status: true,
