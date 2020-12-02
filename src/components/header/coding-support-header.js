@@ -33,14 +33,12 @@ export default function Header({ className }) {
               </ScrollLink>
             ))}
           </Flex>
-
-          <Link
-            path="/"
-            ml={2}
-            label="Get Technified"
-            sx={styles.headerBtn}
-            variant="buttons.primary"
-          />
+          <a href = "https://forms.gle/Vt4YztuCmWNKzqru6"
+                       ml={2}
+                       label="Get Technified"
+                       sx={styles.headerBtn}
+                       variant="buttons.primary"
+                      > Get Technified</a> 
 
           <MobileDrawer />
         </Container>
@@ -65,6 +63,7 @@ const styles = {
     mr: ['0', null, null, '20px', '0'],
     '&:hover': {
       color: '#fff',
+      backgroundColor: 'black',
     },
   },
   header: {

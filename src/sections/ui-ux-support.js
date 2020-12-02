@@ -5,9 +5,9 @@ import { Link } from 'components/link';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 
 import { FaAngleRight } from 'react-icons/fa';
-import image1 from 'assets/it-support.svg';
+import image1 from 'assets/ui-ux.svg';
 
-const ITSupport = () => {
+const UIUXSupport = () => {
   return (
     <Box sx={styles.boostAgencies} id="creative-support">
       <Container>
@@ -16,7 +16,7 @@ const ITSupport = () => {
             <Box sx={styles.content}>
               <Box sx={styles.titleBox}>
                 <Heading as="h3">
-                IT adminstration support
+               UI/UX research and design
                 </Heading>
                 <Text as="p">
                   Get the right support to complete your projects quicker, better and cheaper.
@@ -25,18 +25,17 @@ const ITSupport = () => {
               <Box as="ul" sx={styles.list}>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-               Social media adminstration and automation
+                Design thinking                </Text>
+                <Text as="li">
+                  <IoIosCheckmarkCircle />
+               Mobile design          </Text>
+                <Text as="li">
+                  <IoIosCheckmarkCircle />
+               Web and desktop  design
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                Virtual Office admin </Text>
-                <Text as="li">
-                  <IoIosCheckmarkCircle />
-               Custormer relationship management
-                </Text>
-                <Text as="li">
-                  <IoIosCheckmarkCircle />
-              Sourcing 
+              Low and high fidelity protoptying
                 </Text>
               </Box>
             
@@ -51,7 +50,7 @@ const ITSupport = () => {
   );
 };
 
-export default ITSupport;
+export default UIUXSupport;
 
 const styles = {
   boostAgencies: {

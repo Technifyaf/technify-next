@@ -9,68 +9,70 @@ import priceIcon2 from 'assets/price-user-1-2.svg';
 const PRICE_MONTHLY_DATA = [
   {
     recommended: null,
-    title: 'Starter Pack',
+    title: 'Basic Package',
     icon: priceIcon1,
-    amount: 'R399/hr',
+    amount: 'R199.99/hr',
     options: [
       {
         status: true,
-        label: '36 Graphic design banners ',
+        label: 'Qualitative research',
       },
       {
         status: true,
         label:
-          ' 6 hours of photography',
+          ' Quantitative research',
       },
       {
         status: true,
-        label: '3 Social media channels admistration and strategy support',
+        label: 'User centrerd design',
       },
       {
         status: true,
-        label: '48 hours of social media engagement',
+        label: 'Low fidelity prototype',
       },
       {
         status: true,
-        label: '36 Social media newsfeed posts',
+        label: '2 member team',
       },
       {
         status: true,
-        label: '12 newsletter updates',
+        label: '40 Hours',
       },
+     
     ],
   },
   {
     recommended: 'Recommended',
-    title: 'Growth pack',
+    title: 'Standard package',
     icon: priceIcon2,
-    amount: 'R499/hr',
+    amount: 'R299.99/hr',
     options: [
       {
         status: true,
-        label: 'Unlimited graphic design content',
+        label: 'Everything in basic',
       },
       {
         status: true,
         label:
-          '12 hours of videography.',
+          'High fidelity prototype',
       },
       {
         status: true,
-        label: '6 hours of photography',
+        label: 'Larger team',
       },
       {
         status: true,
-        label: '3 Social media channels admistration ',
+        label: 'Coperate Identity ',
       },
       {
         status: true,
-        label: 'Youtube channel admnistration and strategy support',
+        label: 'Product system',
       },
       {
         status: true,
-        label: '96 hours of online engagement',
+        label: 'Developer hand off',
       },
+     
     ],
   },
 ];
@@ -78,65 +80,76 @@ const PRICE_MONTHLY_DATA = [
 const PRICE_YEARLY_DATA = [
   {
     recommended: null,
-    title: 'For Team pack',
+    title: 'Basic package',
     icon: priceIcon1,
-    amount: 'R299.99/mo',
+    amount: 'R7.3K/mo',
     options: [
-      {
-        status: true,
-        label: 'Ultimate access to all course, exercises and assessments',
-      },
-      {
-        status: true,
-        label:
-          'Free access for all kind of exercise corrections with downloads.',
-      },
-      {
-        status: true,
-        label: 'Total assessment corrections with free download access system',
-      },
-      {
-        status: false,
-        label: 'Unlimited download of courses on the mobile app contents',
-      },
-      {
-        status: false,
-        label: 'Download and print courses and exercises in PDF',
-      },
-    ],
+        {
+          status: true,
+          label: 'Qualitative research',
+        },
+        {
+          status: true,
+          label:
+            ' Quantitative research',
+        },
+        {
+          status: true,
+          label: 'User centrerd design',
+        },
+        {
+          status: true,
+          label: 'Low fidelity prototype',
+        },
+        {
+          status: true,
+          label: '2 member team',
+        },
+        {
+          status: true,
+          label: '120 Hours ( 3 months)',
+        },
+       
+       
+      ],
   },
   {
     recommended: 'Recommended',
-    title: 'For Organization pack',
+    title: 'Standard package',
     icon: priceIcon2,
-    amount: 'R399.99/mo',
+    amount: 'R11.3K./mo',
     options: [
-      {
-        status: true,
-        label: 'Ultimate access to all course, exercises and assessments',
-      },
-      {
-        status: true,
-        label:
-          'Free access for all kind of exercise corrections with downloads.',
-      },
-      {
-        status: true,
-        label: 'Total assessment corrections with free download access system',
-      },
-      {
-        status: true,
-        label: 'Unlimited download of courses on the mobile app contents',
-      },
-      {
-        status: true,
-        label: 'Download and print courses and exercises in PDF',
-      },
-    ],
+        {
+          status: true,
+          label: 'Everything in basic',
+        },
+        {
+          status: true,
+          label:
+            'High fidelity prototype',
+        },
+        {
+          status: true,
+          label: 'Larger team',
+        },
+        {
+          status: true,
+          label: 'Coperate Identity ',
+        },
+        {
+          status: true,
+          label: 'Product system',
+        },
+        {
+          status: true,
+          label: 'Developer handoff',
+        },
+        
+      ],
   },
 ];
 
-const DataPricing = () => {
+const UIUXPricing = () => {
   const [plan, setPlan] = useState({
     active: 'hourly',
     pricingPlan: PRICE_MONTHLY_DATA,
@@ -189,7 +202,7 @@ const DataPricing = () => {
   );
 };
 
-export default DataPricing;
+export default UIUXPricing;
 
 const fadeIn = keyframes`
   from {

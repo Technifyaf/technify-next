@@ -21,9 +21,11 @@ import CreativeSupport from 'sections/creative-support';
 import Pricing from 'sections/creative-pricing';
 import CreativeSupportLayout from 'components/creative-support-layout';
 import FAQ from 'sections/faq';
-import CodingSupport from 'sections/coding-support';
+
 import CodingPricing from 'sections/coding-pricing';
-import SDFAQ from 'sections/software-dev-faq';
+import UIUXSupport from 'sections/ui-ux-support';
+import UIUXPricing from 'sections/ui-ux-pricing';
+import UIUXFAQ from 'sections/ui-ax-faq';
 
 
 
@@ -32,9 +34,9 @@ export default function myService() {
         <StickyProvider>
           <CreativeSupportLayout>
             <SEO title="Technify Africa solutions" />
-            <CodingSupport />
-            <CodingPricing/>
-            <SDFAQ/>
+            <UIUXSupport />
+            <UIUXPricing/>
+            <UIUXFAQ/>
            
           </CreativeSupportLayout>
         </StickyProvider>

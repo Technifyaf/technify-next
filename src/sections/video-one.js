@@ -14,7 +14,7 @@ const VideoOne = () => {
     setVideoOpen(true);
   };
   return (
-    <Box as="section" sx={styles.video}>
+    <Box as="section" sx={styles.video}  id="video">
       <Container>
         <Heading as="h3">
           Leading companies trust us <br /> to develop software
@@ -22,7 +22,7 @@ const VideoOne = () => {
         <Text as="p">
           We believe it’s important for everyone to have access to software{' '}
           <br />
-          especially when it comes to digital learning be navigate.
+          especially when it comes to digital learning.
         </Text>
         <Link path="/" sx={styles.link}>
           Explore Details <FaAngleRight />

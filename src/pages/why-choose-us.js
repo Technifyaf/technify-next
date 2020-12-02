@@ -10,19 +10,20 @@ import DataSupport from 'sections/data-support';
 import HourlyPricing from 'sections/hourly-pricing';
 import AboutUS from 'sections/about-us';
 import VideoOne from 'sections/video-one';
+import AboutUSLayout from 'components/about-us-layout';
 
 
 
 export default function myService() {
     return ( <ThemeProvider theme={theme}>
         <StickyProvider>
-          <CreativeSupportLayout>
+          <AboutUSLayout>
             <SEO title="Technify Africa solutions" />
             <AboutUS />
            
             <VideoOne/>
            
-          </CreativeSupportLayout>
+          </AboutUSLayout>
         </StickyProvider>
       </ThemeProvider>)
   }

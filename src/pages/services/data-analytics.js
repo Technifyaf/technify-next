@@ -9,6 +9,7 @@ import FAQ from 'sections/faq';
 import DataSupport from 'sections/data-support';
 import HourlyPricing from 'sections/hourly-pricing';
 import DataPricing from 'sections/data-pricing';
+import DSFAQ from 'sections/data-science-faq';
 
 
 
@@ -19,7 +20,7 @@ export default function myService() {
             <SEO title="Technify Africa solutions" />
             <DataSupport />
             <DataPricing/>
-            <FAQ/>
+            <DSFAQ/>
            
           </CreativeSupportLayout>
         </StickyProvider>

@@ -11,8 +11,18 @@ const CallToAction = () => {
             Hire the best developers <br />
             and designers around!
           </Heading>
+         
           <Box sx={styles.btnWrapper}>
-            <Button sx={styles.btn}>Get Technified</Button>
+          <a
+						href='https://forms.gle/Vt4YztuCmWNKzqru6'
+						ml={2}
+						label='Get Technified'
+						sx={styles.headerBtn}
+						variant='buttons.primary'
+					>
+					 <Button sx={styles.btn}>Get Technified</Button>
+					</a>
+           
           </Box>
         </Box>
       </Container>

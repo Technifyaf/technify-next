@@ -4,7 +4,7 @@ import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 import { Link } from 'components/link';
 import { FaAngleRight } from 'react-icons/fa';
-import icon1 from 'assets/icons/video.svg';
+import icon1 from 'assets/icons/pen-tool.svg';
 import icon2 from 'assets/icons/git-merge.svg';
 import icon3 from 'assets/icons/database.svg';
 import icon4 from 'assets/icons/user-plus.svg';
@@ -14,16 +14,17 @@ import icon4 from 'assets/icons/user-plus.svg';
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Online marketing',
+    title: 'UI/UX research & design',
     text:
-      'Get creative and build a postive impression about your brand.',
-      path : ' /services/online-marketing',
+      'Design and protype intuitive interfaces with delightful experiences.',
+      path : ' /services/ui-ux',
   },
+ 
   {
     icon: icon2,
     title: 'Software development',
     text:
-      'Get hacking and build clean and robust software quicker and easier..',
+      'Get hacking and build clean and robust software quicker and easier.',
       path : '/services/software-development ',
   },
   {
@@ -37,7 +38,7 @@ const SERVICES_DATA = [
     icon: icon4,
     title: 'IT admin support',
     text:
-      'Digitise your business activties for better results.',
+      'Digitise and automate your business activties for better results.',
       path : '/services/it-administration',
   },
   

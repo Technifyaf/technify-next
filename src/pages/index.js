@@ -17,6 +17,7 @@ import Projects from 'sections/projects'
 import Training from 'sections/training'
 import Positioning from 'sections/positioning';
 import Founder from 'sections/founder';
+import Foundation from 'sections/foundation';
 
 
 /// <VideoOne />
@@ -33,9 +34,8 @@ export default function IndexPage() {
          
           <BoostAgencies />
           <CustomerSupport />
-          <Positioning/>
-          <Projects />
-
+         
+        
           <Founder/>
           <Feature />
           <CallToAction />

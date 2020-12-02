@@ -8,7 +8,7 @@ import Logo from 'components/logo';
 
 import { DrawerProvider } from 'contexts/drawer/drawer.provider';
 import MobileDrawer from './mobileDrawer';
-import menuItems from './creative-support-header.data';
+import menuItems from './about-us-header.data';
 
 export default function Header({ className }) {
   return (
@@ -33,7 +33,6 @@ export default function Header({ className }) {
               </ScrollLink>
             ))}
           </Flex>
-
           <a href = "https://forms.gle/Vt4YztuCmWNKzqru6"
                        ml={2}
                        label="Get Technified"

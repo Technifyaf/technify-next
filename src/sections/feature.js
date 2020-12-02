@@ -14,7 +14,7 @@ const FeatureData = [
     image: featureImage1,
     title: 'Why Africa is ready to go digital',
     comments: '22 Comments',
-    path: '/',
+    path: 'https://medium.com/@technifyaf/my-story-7d29c3a73f7c',
   },
   {
     image: featureImage2,

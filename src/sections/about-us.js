@@ -9,7 +9,7 @@ import image1 from 'assets/data-support.svg';
 
 const AboutUS = () => {
   return (
-    <Box sx={styles.boostAgencies} id="creative-support">
+    <Box sx={styles.boostAgencies} id="how we work">
       <Container>
         <Box sx={styles.row}>
           <Flex sx={styles.col}>

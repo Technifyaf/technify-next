@@ -28,10 +28,10 @@ export default function Footer() {
         </Box>
         <Box sx={styles.right}>
           <Link path="/" label="Home" />
-          <Link path="/" label="Facebook" />
-          <Link path="/" label="Instagram" />
-          <Link path="/" label="Twitter" />
-          <Link path="/" label="Linkend-in" />
+          <a href = "https://web.facebook.com/technifyls"> Facebook</a> 
+          <a href = "https://www.instagram.com/technifyls">Instagram</a> 
+          <a href = "https://twitter.com/TechnifyLS"> Twitter</a> 
+          <a href = "https://www.linkedin.com/company/technifylesotho/"> Linked in</a> 
         </Box>
       </Container>
     </footer>

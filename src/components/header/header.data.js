@@ -9,10 +9,6 @@ export default [
   },
 
   {
-    path: 'projects',
-    label: 'Projects',
-  },
-  {
     path: 'news',
     label: 'Blog',
   },

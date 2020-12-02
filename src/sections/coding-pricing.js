@@ -11,7 +11,7 @@ const PRICE_MONTHLY_DATA = [
     recommended: null,
     title: 'Front-end web development',
     icon: priceIcon1,
-    amount: '29.99/mo',
+    amount: 'R339.99/hr',
     options: [
       {
         status: true,
@@ -44,7 +44,7 @@ const PRICE_MONTHLY_DATA = [
     recommended: 'Recommended',
     title: 'Front - end mobile development',
     icon: priceIcon2,
-    amount: '49.99/mo',
+    amount: '389.99/hr',
     options: [
       {
         status: true,
@@ -77,7 +77,7 @@ const PRICE_MONTHLY_DATA = [
     recommended: 'Recommended',
     title: 'Back end development',
     icon: priceIcon2,
-    amount: '49.99/mo',
+    amount: '799.99/hr',
     options: [
       {
         status: true,
@@ -104,7 +104,7 @@ const PRICE_MONTHLY_DATA = [
     recommended: 'Recommended',
     title: 'Full stack development',
     icon: priceIcon2,
-    amount: '49.99/mo',
+    amount: 'R1199.99/hr',
     options: [
       {
         status: true,
