@@ -12,9 +12,9 @@ import featureImage3 from 'assets/tutorial-1-3.png';
 const FeatureData = [
   {
     image: featureImage1,
-    title: 'Why Africa is ready to go digital',
+    title: 'Our work in Lesotho',
     comments: '22 Comments',
-    path: 'https://medium.com/@technifyaf/my-story-7d29c3a73f7c',
+    path: 'https://technifyafrica.medium.com/',
   },
   {
     image: featureImage2,
@@ -96,7 +96,6 @@ const Feature = () => {
               <FeatureCard
                 image={feature.image}
                 title={feature.title}
-                commentCount={feature.comments}
                 path={feature.path}
               />
             </div>

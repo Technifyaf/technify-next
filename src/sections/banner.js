@@ -37,15 +37,8 @@ Africa's Tech support for SMMEs and Startups.           </Heading>
               <Box as="label" htmlFor="subscribe" variant="styles.srOnly">
                 subscribe
               </Box>
-              <Input
-                name="subscribe"
-                id="subscribe"
-                placeholder="Subscribe newsletter"
-                sx={styles.form.input}
-              />
-              <Button type="submit" sx={styles.form.button}>
-                Subscribe
-              </Button>
+              
+             
             </Box>
            
           </Box>
