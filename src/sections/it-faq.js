@@ -7,74 +7,23 @@ import Accordion from 'components/accordion/accordion';
 const accordionData = [
   {
     isExpanded: false,
-    title: 'How much does it cost to be a credit card merchant?',
+    title: 'Can I put together my own package and how much would it cost?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Yes, our baseline for supoort is R250 per hour so think carefully  about the type of support you need.
       </div>
     ),
   },
   {
     isExpanded: true,
-    title: 'How can I open a merchant account?',
+    title: 'Is support given remotely or onsite',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        It varies, but for the most part support will be given remotely via , zoom.
       </div>
     ),
   },
-  {
-    isExpanded: false,
-    title: 'How long does the application take?',
-    contents: (
-      <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
-      </div>
-    ),
-  },
-  {
-    isExpanded: false,
-    title: 'Can I make payment outside of Hong Kong?',
-    contents: (
-      <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
-      </div>
-    ),
-  },
-  {
-    isExpanded: false,
-    title: 'How do I get the payment complete?',
-    contents: (
-      <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
-      </div>
-    ),
-  },
+  
 ];
 
 const ITFAQ = () => {

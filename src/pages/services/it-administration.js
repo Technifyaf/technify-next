@@ -23,6 +23,7 @@ import CreativeSupportLayout from 'components/creative-support-layout';
 import FAQ from 'sections/faq';
 import ITSupport from 'sections/it-support';
 import ITFAQ from 'sections/it-faq';
+import ITPricing from 'sections/itpricing';
 
 
 
@@ -32,7 +33,7 @@ export default function myService() {
           <CreativeSupportLayout>
             <SEO title="Technify Africa solutions" />
             <ITSupport />
-            <Pricing/>
+            <ITPricing/>
             <ITFAQ/>
            
           </CreativeSupportLayout>

@@ -9,7 +9,7 @@ export default {
     background: '#FFFFFF', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E9EDF5', // border color
-    primary: '#8D448B', // primary button and link color
+    primary: '#1484cc', // primary button and link color
     secondary: '#793677', // secondary color - can be used for hover states
     black: '#0F2137', // black color
     gray: '#F8FAFC',

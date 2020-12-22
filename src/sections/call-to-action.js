@@ -12,7 +12,7 @@ const CallToAction = () => {
             and designers around!
           </Heading>
          
-          <Box sx={styles.btnWrapper}>
+          
           <a
 						href='https://forms.gle/Vt4YztuCmWNKzqru6'
 						ml={2}
@@ -23,7 +23,6 @@ const CallToAction = () => {
 					 <Button sx={styles.btn}>Get Technified</Button>
 					</a>
            
-          </Box>
         </Box>
       </Container>
     </Box>
