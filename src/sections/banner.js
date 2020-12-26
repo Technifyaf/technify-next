@@ -29,9 +29,9 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h3">
-Africa's Tech support for SMMEs and Startups.           </Heading>
+             Africa's technical support for creative teams.       </Heading>
             <Text as="p">
-              We provide businesses affordable professional IT services that are consistent and timely.
+             You hustle, we hack. You bring the concept, we bring the code.
             </Text>
             <Box as="form" sx={styles.form}>
               <Box as="label" htmlFor="subscribe" variant="styles.srOnly">
