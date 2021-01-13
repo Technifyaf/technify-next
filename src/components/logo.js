@@ -12,7 +12,7 @@ export default function Logo() {
         variant: 'links.logo',
       }}
     >
-  <Image src={logo} sx={{ display: 'flex' }} width ="70≈"alt="startup landing logo" />
+  <Image src={logo} sx={{ display: 'flex' }} width ="50"alt="startup landing logo" />
    </Link>
   );
 }
