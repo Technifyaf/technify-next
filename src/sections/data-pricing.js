@@ -11,7 +11,7 @@ const PRICE_MONTHLY_DATA = [
     recommended: null,
     title: 'Starter Pack',
     icon: priceIcon1,
-    amount: '399/',
+    amount: '399/hr',
     options: [
       {
         status: true,

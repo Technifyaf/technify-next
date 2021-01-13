@@ -7,6 +7,10 @@ export default [
     path: 'services',
     label: 'Services',
   },
+  {
+    path: 'founder',
+    label: 'Founder',
+  },
 
   {
     path: 'news',

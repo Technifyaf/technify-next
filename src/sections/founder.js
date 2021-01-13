@@ -9,7 +9,7 @@ import image1 from 'assets/Trer.jpeg';
 
 const Founder = () => {
   return (
-    <Box sx={styles.boostAgencies}>
+    <Box sx={styles.boostAgencies} id="founder">
       <Container>
         <Box sx={styles.row}>
           <Flex sx={styles.col}>

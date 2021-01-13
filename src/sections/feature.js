@@ -5,7 +5,7 @@ import Swiper from 'react-id-swiper';
 
 import FeatureCard from 'components/feature-card';
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa';
-import featureImage1 from 'assets/tutorial-1-1.png';
+import featureImage1 from 'assets/blog.jpg';
 import featureImage2 from 'assets/tutorial-1-2.png';
 import featureImage3 from 'assets/tutorial-1-3.png';
 
@@ -16,19 +16,7 @@ const FeatureData = [
     comments: '22 Comments',
     path: 'https://technifyafrica.medium.com/',
   },
-  {
-    image: featureImage2,
-    title: 'Breaking down e-Commerce',
-    comments: '15 Comments',
-    path: '/',
-  },
-  {
-    image: featureImage3,
-    title:
-      'Unlocking Lesotho ',
-    comments: '12 Comments',
-    path: '/',
-  },
+  
 ];
 
 const Feature = () => {
