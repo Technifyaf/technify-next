@@ -33,7 +33,7 @@ const Founder = () => {
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  LSIMM hackathon on inclusive fintech winner, 2018
+                  LSIMM hackathon on inclusive financial services winner, 2018
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
