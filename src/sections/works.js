@@ -25,8 +25,8 @@ const SERVICES_DATA = [
 
 	{
 		icon: icon3,
-		title: 'Hospitality',
-		text: ' A premium restaurant and cafe in Lesotho',
+		title: 'Retail Clothing',
+		text: ' A top quality retail shop',
 		path: 'https://lapis-lazuli-lesotho.myshopify.com/',
 	},
 
