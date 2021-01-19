@@ -16,7 +16,7 @@ const Founder = () => {
             <Box sx={styles.content}>
               <Box sx={styles.titleBox}>
                 <Heading as="h3">
-                  Founder and CEO
+                  Founder
                 </Heading>
                 <Text as="p">
                   Get the right support to complete your projects quicker, better and cheaper.
