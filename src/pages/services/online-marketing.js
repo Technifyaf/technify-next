@@ -7,7 +7,7 @@ import Layout from 'components/layout';
 
 import Banner from 'sections/banner';
 import Services from 'sections/services';
-import Testimonials from 'sections/testimonials';
+import Testimonials from 'sections/works';
 import CustomerSupport from 'sections/customer-support';
 import Feature from 'sections/feature';
 import VideoOne from 'sections/video-one';

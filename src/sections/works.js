@@ -3,45 +3,42 @@ import { Box, Container, Grid, Heading, Text } from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 import { Link } from 'components/link';
-import icon1 from 'assets/icons/coffee.svg';
-import icon2 from 'assets/icons/calendar.svg';
-import icon3 from 'assets/icons/credit-card.svg';
+import icon1 from 'assets/mclogo.png';
+import icon2 from 'assets/goodtimes.png';
+import icon3 from 'assets/lapis.png';
 import icon4 from 'assets/icons/truck.svg';
 
 const SERVICES_DATA = [
 	{
 		icon: icon1,
-		title: 'Lunchbox',
-		text: 'A cooked food marketplace and distribution solution.',
-		path: 'https://web.facebook.com/lunchboxmeal',
+		title: 'Construction',
+		text: 'A borehole drilling company based in Lesotho',
+		path: 'http://www.morethetho.co.ls/ ',
 	},
 	{
 		icon: icon2,
-		title: 'Eventspoynt',
-		text: 'An event ticketing and RSVP platform. ',
-		path: ' https://web.facebook.com/eventspoynt',
+		title: 'Hospitality',
+		text: ' A premium restaurant and cafe in Lesotho',
+		path: ' https://good-times-cafe.myshopify.com/',
 	},
+	
+
 	{
 		icon: icon3,
-		title: 'Itmas',
-		text: 'A shorter and quicker way to make mobile money payments.',
-		path: ' https://itmas-nextjs.vercel.app/ ',
+		title: 'Hospitality',
+		text: ' A premium restaurant and cafe in Lesotho',
+		path: 'https://lapis-lazuli-lesotho.myshopify.com/',
 	},
-	{
-		icon: icon4,
-		title: 'Nkukele',
-		text: 'A multipurpose delivery solution for businesses and individuals.',
-		path: 'https://web.facebook.com/nkukelethepa',
-	},
+
 ];
 
-const Projects = () => {
+const Works = () => {
 	return (
-		<Box sx={styles.services} id='projects'>
+		<Box sx={styles.services} id='works'>
 			<Container>
 				<BlockTitle
 					slogan='Quality services'
-					title='Our project pipeline'
+					title='Our works'
 					styles={styles.blockTitle}
 				/>
 				<Grid sx={styles.grid}>
@@ -52,8 +49,8 @@ const Projects = () => {
 							key={`service-post-${index}`}
 						>
 							<a href={service.path}>
-								<Box className='service-icon' sx={styles.icon}>
-									<Image src={service.icon} alt='' />
+								<Box className='service-icon' >
+									<Image src={service.icon}  width ="200" alt='' />
 								</Box>
 								<Heading as='h3'>{service.title}</Heading>
 								<Text as='p'>{service.text}</Text>
@@ -66,24 +63,24 @@ const Projects = () => {
 	);
 };
 
-export default Projects;
+export default Works;
 
 const styles = {
 	services: {
 		pt: ['80px', null, null, null, null, null, '140px'],
-		'.service-card:nth-of-type(2)': {
+		'.service-card:nth-of-type(0)': {
 			'.service-icon': {
 				backgroundImage:
 					'linear-gradient(320.89deg, #25D9D9 10.83%, rgba(37, 217, 217, 0.5) 88.7%)',
 			},
 		},
-		'.service-card:nth-of-type(3)': {
+		'.service-card:nth-of-type(0)': {
 			'.service-icon': {
 				backgroundImage:
 					'linear-gradient(319.4deg, #0898E7 5.17%, rgba(8, 152, 231, 0.5) 94.34%)',
 			},
 		},
-		'.service-card:nth-of-type(4)': {
+		'.service-card:nth-of-type(0)': {
 			'.service-icon': {
 				backgroundImage:
 					'linear-gradient(322.63deg, #FF9066 9.94%, rgba(255, 144, 102, 0.5) 91.14%)',

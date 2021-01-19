@@ -11,6 +11,14 @@ export default [
     path: 'founder',
     label: 'Founder',
   },
+  {
+    path: 'projects',
+    label: 'Projects',
+  },
+  {
+    path: 'works',
+    label: 'Works',
+  },
 
   {
     path: 'news',

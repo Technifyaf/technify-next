@@ -7,40 +7,42 @@ import Layout from 'components/layout';
 
 import Banner from 'sections/banner';
 import Services from 'sections/services';
-import Testimonials from 'sections/testimonials';
+import Testimonials from 'sections/works';
 import CustomerSupport from 'sections/customer-support';
 import Feature from 'sections/feature';
 import VideoOne from 'sections/video-one';
 import CallToAction from 'sections/call-to-action';
 import BoostAgencies from 'sections/boost-agencies';
-import Projects from 'sections/projects'
-import Training from 'sections/training'
+import Projects from 'sections/projects';
+import Training from 'sections/training';
 import Positioning from 'sections/positioning';
 import Founder from 'sections/founder';
 import Foundation from 'sections/foundation';
-
+import Works from 'sections/works';
 
 /// <VideoOne />
 ////<Testimonials />
 
 export default function IndexPage() {
-  return (
-    <ThemeProvider theme={theme}>
-      <StickyProvider>
-        <Layout>
-          <SEO title="Technify Africa solutions" />
-          <Banner />
-          <Services />
-         
-          <BoostAgencies />
-          <CustomerSupport />
-         
-        
-          <Founder/>
-          <Feature />
-          <CallToAction />
-        </Layout>
-      </StickyProvider>
-    </ThemeProvider>
-  );
+	return (
+		<ThemeProvider theme={theme}>
+			<StickyProvider>
+				<Layout>
+					<SEO title='Technify Africa solutions' />
+					<Banner />
+					<Services />
+
+					<BoostAgencies />
+					<CustomerSupport />
+					<Projects />
+					
+					<Works />
+
+					<Founder />
+					<Feature />
+					<CallToAction />
+				</Layout>
+			</StickyProvider>
+		</ThemeProvider>
+	);
 }
