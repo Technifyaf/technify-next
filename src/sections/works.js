@@ -4,7 +4,7 @@ import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 import { Link } from 'components/link';
 import icon1 from 'assets/mclogo.png';
-import icon2 from 'assets/goodtimes.png';
+import icon2 from 'assets/Goodtimes.png';
 import icon3 from 'assets/lapis.png';
 import icon4 from 'assets/icons/truck.svg';
 
@@ -26,7 +26,7 @@ const SERVICES_DATA = [
 	{
 		icon: icon3,
 		title: 'Retail Clothing',
-		text: ' A top quality retail shop',
+		text: ' A top quality retail shoe shop',
 		path: 'https://lapis-lazuli-lesotho.myshopify.com/',
 	},
 
