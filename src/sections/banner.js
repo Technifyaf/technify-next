@@ -29,7 +29,7 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h3">
-             Africa's technical support for creative teams.       </Heading>
+             Africa's technical support for creative and administrative teams </Heading>
             <Text as="p">
              You hustle, we hack. You bring the concept, we bring the code.
             </Text>
