@@ -19,6 +19,7 @@ import Positioning from 'sections/positioning';
 import Founder from 'sections/founder';
 import Foundation from 'sections/foundation';
 import Works from 'sections/works';
+import bannerImg from 'assets/banner-image-1-1.png';
 
 /// <VideoOne />
 ////<Testimonials />
@@ -28,7 +29,9 @@ export default function IndexPage() {
 		<ThemeProvider theme={theme}>
 			<StickyProvider>
 				<Layout>
-					<SEO title='Technify Africa solutions' />
+					<SEO title='Technify Africa solutions'
+						description = " Africa's reliable and remote technical support for non-technical teams"
+						image = {bannerImg}/>
 					<Banner />
 					<Services />
 
