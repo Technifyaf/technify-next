@@ -7,7 +7,7 @@ import img1 from 'assets/partner-1-1.png';
 import img2 from 'assets/partner-1-2.png';
 import img3 from 'assets/partner-1-3.png';
 
-import bannerImg from 'assets/banner-image-1-1.png';
+import bannerImg from 'assets/banner_a.png';
 
 /** <Box sx={styles.partner}>
               <Text as="span">Supported by:</Text>
@@ -29,17 +29,19 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h3">
-             Africa's technical support for non technical teams </Heading>
+            Empowering businesses with modern technology </Heading>
             <Text as="p">
-             You hustle, we hack. You bring the concept, we bring the code.
+            Work better ,faster and smarter, adopt tech.
             </Text>
-            <Box as="form" sx={styles.form}>
-              <Box as="label" htmlFor="subscribe" variant="styles.srOnly">
-                subscribe
-              </Box>
-              
-             
-            </Box>
+            <a
+						href='https://forms.gle/Vt4YztuCmWNKzqru6'
+						ml={2}
+						label='Get Technified'
+						sx={styles.headerBtn}
+						variant='buttons.primary'
+					>
+					 <Button sx={styles.btn}>Get Technified</Button>
+					</a>
            
           </Box>
           <Box sx={styles.image}>

@@ -4,7 +4,7 @@ import { FaAngleRight } from 'react-icons/fa';
 import { Link } from 'components/link';
 import Image from 'components/image';
 
-import img1 from 'assets/cta-2-1.png';
+import img1 from 'assets/team.png';
 
 const CustomerSupport = () => {
   return (
@@ -30,7 +30,7 @@ const CustomerSupport = () => {
           </Box>
           
           <Box sx={styles.col}>
-            <Image src={img1} alt="" />
+            <Image src={img1} width="600" alt="" />
           </Box>
         </Grid>
       </Container>
